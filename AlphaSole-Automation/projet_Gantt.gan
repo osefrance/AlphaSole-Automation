@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="AlphaSole" company="" webLink="http://" view-date="2018-03-12" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.5" locale="fr">
+    <description/>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="136" order="0"/>
+        <field id="tpd4" name="Date de début" width="63" order="1"/>
+        <field id="tpd5" name="Date de fin" width="67" order="2"/>
+        <field id="tpc0" name="" width="15" order="3"/>
+        <option id="taskLabelRight" value="name"/>
+        <timeline><![CDATA[66,64,68,69,63,67]]></timeline>
+        <option id="color.recent"><![CDATA[#ff9900 #cc00cc #ff0000 #009900 #f4f4f4 #3366ff #999999 #99ff99 #33ffff #000000]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+            <taskproperty id="tpc0" name="" type="custom" valuetype="text"/>
+        </taskproperties>
+        <task id="64" name="Mise en place du projet" color="#cc00cc" shape="0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,0" meeting="true" start="2018-02-05" duration="0" complete="0" expand="true"/>
+        <task id="22" name="Planning" color="#cc00cc" meeting="false" start="2018-02-05" duration="6" complete="100" expand="true"/>
+        <task id="25" name="Recherche Capteur" color="#cc00cc" meeting="false" start="2018-02-12" duration="4" complete="100" expand="true"/>
+        <task id="49" name="Alim" color="#cc00cc" meeting="false" start="2018-02-16" duration="2" complete="100" expand="true"/>
+        <task id="26" name="Recherche moteur" color="#cc00cc" meeting="false" start="2018-02-12" duration="3" complete="100" expand="true"/>
+        <task id="27" name="Recherche Arduino" color="#cc00cc" meeting="false" start="2018-02-15" duration="3" complete="100" expand="true"/>
+        <task id="66" name="Montage électronique" color="#999999" shape="0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,0" meeting="true" start="2018-02-19" duration="0" complete="0" expand="true"/>
+        <task id="29" name="teste capteur" color="#999999" meeting="false" start="2018-02-19" duration="6" complete="100" expand="true"/>
+        <task id="30" name="teste moteur" color="#999999" meeting="false" start="2018-02-19" duration="3" complete="100" expand="true"/>
+        <task id="31" name="teste arduino" color="#999999" meeting="false" start="2018-02-22" duration="3" complete="100" expand="true"/>
+        <task id="32" name="liaison capteur" color="#999999" meeting="false" start="2018-02-26" duration="2" complete="100" expand="true"/>
+        <task id="33" name="liaison Moteur" color="#999999" meeting="false" start="2018-02-26" duration="2" complete="100" expand="true"/>
+        <task id="67" name="Programmation" color="#3366ff" shape="0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,0" meeting="true" start="2018-02-28" duration="0" complete="0" expand="true"/>
+        <task id="34" name="Prog. recupération" color="#3366ff" meeting="false" start="2018-02-28" duration="4" complete="100" expand="true"/>
+        <task id="35" name="Prog. envoi" color="#3366ff" meeting="false" start="2018-02-28" duration="14" complete="100" expand="true"/>
+        <task id="36" name="Prog. fonction" color="#3366ff" meeting="false" start="2018-03-16" duration="2" complete="71" expand="true"/>
+        <task id="38" name="Prog. données" color="#3366ff" meeting="false" start="2018-03-05" duration="12" complete="85" expand="true"/>
+        <task id="68" name="Réalisation du prototype" color="#ff9900" shape="0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,0" meeting="true" start="2018-03-19" duration="0" complete="0" expand="true"/>
+        <task id="43" name="Plan du prototype" color="#ff9900" meeting="false" start="2018-03-19" duration="6" complete="80" expand="true"/>
+        <task id="61" name="Montage du prototype" color="#ff9900" meeting="false" start="2018-03-26" duration="6" complete="40" expand="true"/>
+        <task id="69" name="Interface et prévisionnel" color="#009900" shape="0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,0" meeting="true" start="2018-03-31" duration="0" complete="0" expand="true"/>
+        <task id="56" name="Enregistrement et lecture des données" color="#009900" meeting="false" start="2018-04-02" duration="3" complete="100" expand="true"/>
+        <task id="55" name="Prévisionnel" color="#009900" meeting="false" start="2018-04-05" duration="6" complete="70" expand="true"/>
+        <task id="58" name="Nuage" color="#009900" meeting="false" start="2018-04-30" duration="6" complete="80" expand="true"/>
+        <task id="59" name="Def. affichage" color="#009900" meeting="false" start="2018-03-31" duration="2" complete="61" expand="true"/>
+        <task id="60" name="Affichage" color="#009900" meeting="false" start="2018-04-03" duration="29" complete="20" expand="true"/>
+        <task id="63" name="gestion des risques" color="#ff0000" shape="0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,0" meeting="false" start="2018-05-07" duration="18" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Billy" function="Default:0" contacts="bliangwei@gmail.com" phone=""/>
+        <resource id="1" name="Cyprien" function="Default:0" contacts="cyprien.bouni@free.fr" phone=""/>
+        <resource id="2" name="Fabien" function="Default:0" contacts="bessieres.fabien@gmail.com" phone=""/>
+        <resource id="3" name="François" function="Default:0" contacts="francois.goretquenet@laposte.net" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="22" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="27" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="31" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="35" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="43" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="30" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="36" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="33" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="61" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="56" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="55" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="58" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="31" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="35" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="43" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="36" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="33" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="61" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="59" resource-id="1" function="Default:0" responsible="true" load="0.0"/>
+        <allocation task-id="60" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="49" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="34" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="38" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="43" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="61" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="56" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="55" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="58" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="49" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="29" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="34" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="38" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="43" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="61" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="59" resource-id="3" function="Default:0" responsible="false" load="0.0"/>
+        <allocation task-id="60" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations>
+        <vacation start="2018-04-16" end="2018-04-30" resourceid="0"/>
+        <vacation start="2018-04-16" end="2018-04-30" resourceid="1"/>
+        <vacation start="2018-04-16" end="2018-04-30" resourceid="2"/>
+        <vacation start="2018-04-16" end="2018-04-30" resourceid="3"/>
+    </vacations>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
